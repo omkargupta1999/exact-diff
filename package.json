@@ -1,0 +1,42 @@
+{
+  "name": "exact-diff",
+  "version": "1.0.0",
+  "description": "Character-exact, offline, side-by-side text comparison in a single HTML file.",
+  "keywords": [
+    "diff",
+    "compare",
+    "text-compare",
+    "offline",
+    "pwa",
+    "myers",
+    "patience-diff",
+    "whitespace"
+  ],
+  "homepage": "https://github.com/YOUR-USERNAME/exact-diff#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR-USERNAME/exact-diff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR-USERNAME/exact-diff.git"
+  },
+  "license": "MIT",
+  "author": "Omkar Gupta",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-web.mjs",
+    "serve": "node scripts/serve.mjs dist/web 4173",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test \"tests/unit/*.test.mjs\"",
+    "test:e2e": "npm run build && playwright test",
+    "sync-version": "node scripts/set-version.mjs",
+    "version": "node scripts/set-version.mjs && git add src/index.html desktop/package.json desktop/package-lock.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.0"
+  }
+}

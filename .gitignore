@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+desktop/dist/
+desktop/app/
+
+# test output
+test-results/
+playwright-report/
+blob-report/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

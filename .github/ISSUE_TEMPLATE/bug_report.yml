@@ -1,0 +1,33 @@
+name: Bug report
+description: Something is wrong or a difference is missed
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect to see, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Attach the two files if you can (zip them so line endings and invisible characters are kept).
+      placeholder: |
+        1. Open a.txt on the left and b.txt on the right
+        2. …
+    validations:
+      required: true
+  - type: dropdown
+    id: build
+    attributes:
+      label: Which build?
+      options: [Web app (GitHub Pages), Single HTML file, Windows desktop, Linux desktop, macOS desktop]
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Browser / OS and Exact Diff version
+      placeholder: Chrome 140 on Windows 11, Exact Diff 1.0.0 (Help → About)
