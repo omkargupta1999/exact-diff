@@ -37,6 +37,6 @@
     "version": "node scripts/set-version.mjs && git add src/index.html desktop/package.json desktop/package-lock.json"
   },
   "devDependencies": {
-    "@playwright/test": "1.56.0"
+    "@playwright/test": "1.63.0"
   }
 }
