@@ -6,7 +6,7 @@
   "description": "Exact Diff — Offline Text Compare (desktop app).",
   "homepage": "https://github.com/YOUR-USERNAME/exact-diff",
   "main": "main.js",
-  "author": "Omkar Gupta",
+  "author": "omkargupta1999",
   "license": "MIT",
   "private": true,
   "engines": {
@@ -28,7 +28,7 @@
   "build": {
     "appId": "io.github.YOUR-USERNAME.exactdiff",
     "productName": "Exact Diff",
-    "copyright": "Copyright © 2026 Omkar Gupta. MIT licence.",
+    "copyright": "Copyright © 2026 omkargupta1999. MIT licence.",
     "artifactName": "exact-diff-${version}-${os}-${arch}.${ext}",
     "files": [
       "main.js",
@@ -72,7 +72,7 @@
       ],
       "category": "Development",
       "icon": "build/icon.png",
-      "maintainer": "Omkar Gupta",
+      "maintainer": "omkargupta1999",
       "executableName": "exact-diff",
       "syncDesktopName": true
     },

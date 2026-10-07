@@ -21,7 +21,7 @@
     "url": "git+https://github.com/YOUR-USERNAME/exact-diff.git"
   },
   "license": "MIT",
-  "author": "Omkar Gupta",
+  "author": "omkargupta1999",
   "private": true,
   "type": "module",
   "engines": {

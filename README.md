@@ -213,4 +213,4 @@ Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) © 2026 Omkar Gupta
+[MIT](LICENSE) © 2026 omkargupta1999
