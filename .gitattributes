@@ -1,4 +1,4 @@
-# Normalise text files to LF in the repository.
+# Normalise text files to LF in the repository  .
 * text=auto eol=lf
 # Windows scripts keep CRLF.
 *.bat text eol=crlf
