@@ -22,7 +22,7 @@
     "dist:rpm": "node scripts/copy-app.mjs && electron-builder --linux rpm --publish never"
   },
   "devDependencies": {
-    "electron": "44.6.0",
+    "electron": "44.7.0",
     "electron-builder": "26.15.3"
   },
   "build": {
